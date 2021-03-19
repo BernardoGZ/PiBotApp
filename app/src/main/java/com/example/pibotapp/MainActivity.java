@@ -12,9 +12,10 @@ import android.view.View;
 public class MainActivity extends AppCompatActivity {
     // Variables usadas para poder acceder a los métodos de identificación de IDs
     // para cada uno de los elementos declarados en la actividad
-    private EditText Usuario;
-    private EditText Contra;
-    private Button Login;
+    private EditText user;
+    private EditText pwd;
+    private Button loginBtn;
+    //public string usertext;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,22 +25,23 @@ public class MainActivity extends AppCompatActivity {
         //Corroborar la sincronización de cuentas con las bases de datos del tec
         // Cada uno de los siguientes corresponden a las diferentes elementos de entrada
         // que se tiene dentro de esta pantalla
-        Usuario = (EditText)findViewById(R.id.cuenta);
-        Contra = (EditText)findViewById(R.id.pass);
-        Login = (Button)findViewById(R.id.login);
+        user = (EditText)findViewById(R.id.cuenta);
+        pwd = (EditText)findViewById(R.id.pass);
+        loginBtn = (Button)findViewById(R.id.login);
 
         // Con esta función se hace que cada se vaya a una sección diferente cuando se haga click sobre el botón establecido
-        Login.setOnClickListener(new View.OnClickListener(){
-            public void onClick (View v){
-                validate();
+        loginBtn.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View v){
+                setContentView(R.layout.activity_welcome_screen);
             }
         });
     }
 
     // Con esta función se puede insertar datos de acceso de tal manera que se pueda restringir el acceso
     // No está implementada
-    private void validate () {
-        Intent intent = new Intent(this, mainMenu.class);
-        startActivity(intent);
-    }
+//    private void validate () {
+//        if (usertext == "bernardo") {
+//            return;
+//        }
+//    }
 }
