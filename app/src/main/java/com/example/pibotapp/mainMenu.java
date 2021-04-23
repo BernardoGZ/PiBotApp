@@ -1,16 +1,14 @@
 package com.example.pibotapp;
 
-import android.content.Intent;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
 
 public class mainMenu extends AppCompatActivity {
     //Terminar de insertar los diferentes departamentos correspondientes a las diferentes areas
-    private Button puntoAzul;
-    private Button covid;
-    private Button pibot;
+//    private Button puntoAzul;
+//    private Button covid;
+//    private Button pibot;
 
 
     @Override
@@ -18,12 +16,12 @@ public class mainMenu extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         // Muestra la página correspondiente
-        setContentView(R.layout.activity_questionario);
+        setContentView(R.layout.activity_menu1);
 
         // Relación del elemento de la página con la variable que lo representará
-        puntoAzul = (Button)findViewById(R.id.PAzul);
-        covid=(Button)findViewById(R.id.covid19);
-        pibot=(Button)findViewById(R.id.pibotstart);
+//        puntoAzul = (Button)findViewById(R.id.PAzul);
+//        covid=(Button)findViewById(R.id.covid19);
+//        pibot=(Button)findViewById(R.id.pibotstart);
 
 
 

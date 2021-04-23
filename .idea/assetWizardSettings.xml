@@ -67,7 +67,7 @@
                                           <PersistentState>
                                             <option name="values">
                                               <map>
-                                                <entry key="imagePath" value="C:\Users\berna\Desktop\Android - 1.2.png" />
+                                                <entry key="imagePath" value="C:\Users\berna\Desktop\LentesIcon.png" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -90,6 +90,7 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
+                                                <entry key="imagePath" value="C:\Users\berna\Desktop\LentesIcon.png" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -121,7 +122,11 @@
                                   </option>
                                   <option name="values">
                                     <map>
-                                      <entry key="outputName" value="background1" />
+                                      <entry key="generatePlayStoreIcon" value="false" />
+                                      <entry key="generateRoundIcon" value="false" />
+                                      <entry key="legacyIconShape" value="HRECT" />
+                                      <entry key="outputName" value="LentesIcon" />
+                                      <entry key="previewDensity" value="MEDIUM" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -285,6 +290,11 @@
                                           </PersistentState>
                                         </value>
                                       </entry>
+                                    </map>
+                                  </option>
+                                  <option name="values">
+                                    <map>
+                                      <entry key="previewDensity" value="MEDIUM" />
                                     </map>
                                   </option>
                                 </PersistentState>
